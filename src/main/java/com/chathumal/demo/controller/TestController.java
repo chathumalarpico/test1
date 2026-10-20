@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 public class TestController {
     @GetMapping
     public String test1() {
-        return "Application is working    "+LocalDateTime.now();
+        return "Application is working Chathumal    "+LocalDateTime.now();
     }
 
 }
