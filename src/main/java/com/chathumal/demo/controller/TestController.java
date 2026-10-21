@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 public class TestController {
     @GetMapping
     public String test1() {
-        return "Application is   "+LocalDateTime.now();
+        return "Application is  version 1.0.1 "+LocalDateTime.now();
     }
 
 }
